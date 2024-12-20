@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es2017", // Cambiado a es2017 para admitir padStart
+    "module": "commonjs",
+    "lib": ["es2017", "dom"], // Incluye compatibilidad con ES2017 y el DOM
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  }
+}
